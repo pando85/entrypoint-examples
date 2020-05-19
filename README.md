@@ -1,14 +1,14 @@
-# entrypoint-examples
+# Entrypoint examples
 
-Just a bunch of docker entrypoints examples
+Just a bunch of docker entrypoint examples.
 
-## common tasks
+## Common tasks
 
 - change permissions (if root and run as user)
 - get non local ip
 - replace lines in files
 - set envars
-- cambios en bloque, loop
+- changes in block, loop
 - exec "$@"
 - umask 0002 by default (group writable dunno why)
 - if run as root modify user (su or similar)
@@ -24,8 +24,8 @@ Just a bunch of docker entrypoints examples
 - assert that
 - create directories or modify permissions recursively (lookup find)
 - random value generator
-- ensure user present in database
+- ensure user is present in database
 - set_fact
 - lookup from shell
-- user module allow change user to that user
+- user module allows to change user to that user
 - retry until
