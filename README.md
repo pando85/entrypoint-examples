@@ -8,7 +8,7 @@ Just a bunch of docker entrypoint examples.
 - get non local ip
 - replace lines in files
 - set envars
-- block changes, loop
+- changes in block, loop
 - exec "$@"
 - umask 0002 by default (group writable dunno why)
 - if run as root modify user (su or similar)
